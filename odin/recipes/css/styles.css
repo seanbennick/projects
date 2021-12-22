@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.nav {
+    list-style: none;
+    padding: 0px
+}
+
+ul.nav>li {
+    display: inline-block;
+    padding-right: 20px
+}
+
+ul.recipes {
+    list-style: none;
+    padding: 0px;
+}
+
+li.recipes {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+    border: 2px solid #5566cc;
+    border-radius: 10px;
+    background-color: #5566cc;
+}
+
+li.recipes>a {
+    text-align: center;
+    font: 900 .9rem/1.5rem Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
